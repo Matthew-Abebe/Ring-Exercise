@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rings</title>
+</head>
+
+<body>
+
+    <div class="create_ring_container">
+        <h2>My Ring</h2>
+        <fieldset>
+            <label for="styles_ring">Styles</label>
+            <select id="styles_ring">
+                <option value="0">Classic</option>
+                <option value="1">Modern</option>
+                <option value="2">Vintage</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="carets_ring">Carets</label>
+            <select id="carets_ring">
+                <option value="0">0.5 Carets</option>
+                <option value="1">0.75 Carets</option>
+                <option value="2">1.00 Carets</option>
+                <option value="3">1.50 Carets</option>
+                <option value="4">2.00 Carets</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="metals_ring">Metals</label>
+            <select id="metals_ring">
+                <option value="0">Sterling Silver</option>
+                <option value="1">14K Gold</option>
+                <option value="2">24K Gold</option>
+                <option value="3">Platinum</option>
+                <option value="4">Palladium</option>
+            </select>
+        </fieldset>
+    </div>
+
+    <button id="ring_button">Submit</button>
+
+    <div class="container"></div>
+
+    <script src="src/scripts/main.js"></script>
+    <script src="src/scripts/ring.js"></script>
+    <script src="src/scripts/ringApi.js"></script>
+</body>
+
+</html>
